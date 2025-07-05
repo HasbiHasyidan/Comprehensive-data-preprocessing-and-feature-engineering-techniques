@@ -1,0 +1,10 @@
+Folder ini berisi dataset yang digunakan dalam feature engineering, dataset tersebut antara lain adalah :
+
+1. California Housing Dataset
+Deskripsi: Dataset ini berisi informasi karakteristik properti dari berbagai blok sensus di California. Fitur-fiturnya mencakup metrik seperti pendapatan rata-rata (MedInc), usia rata-rata rumah (HouseAge), jumlah ruangan rata-rata (AveRooms), jumlah kamar tidur rata-rata (AveBedrms), populasi (Population), hunian rata-rata (AveOccup), serta koordinat geografis (Latitude, Longitude), dengan target house_price. Dataset ini digunakan untuk mendemonstrasikan penanganan outlier pada fitur-fitur numerik.
+
+2. Company Dataset
+Deskripsi: Dataset ini memuat informasi tentang berbagai perusahaan, termasuk pendapatan (Revenue), ukuran perusahaan (Size), rating (Rating), dan lokasi kantor pusat (Headquarters). Dataset ini digunakan untuk menunjukkan teknik penanganan missing values dan nilai yang tidak konsisten pada kolom kategorikal.
+
+3. Telco Customer Churn Dataset
+Deskripsi: Dataset ini berisi data pelanggan dari sebuah perusahaan telekomunikasi, dengan tujuan utama untuk memprediksi churn (pelanggan yang berhenti berlangganan). Dataset ini mencakup berbagai fitur, seperti informasi demografi pelanggan (gender, SeniorCitizen, Partner, Dependents, tenure), jenis layanan yang digunakan (PhoneService, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling), metode pembayaran (PaymentMethod), serta informasi biaya (MonthlyCharges, TotalCharges). Proyek ini secara khusus berfokus pada teknik encoding fitur kategorikal dan penanganan missing values serta feature scaling pada kolom biaya
